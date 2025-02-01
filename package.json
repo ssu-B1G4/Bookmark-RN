@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android": "react-native run-android --port 5173",
+    "ios": "react-native run-ios --port 5173",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "react-native start --port 5173",
     "test": "jest"
   },
   "dependencies": {
